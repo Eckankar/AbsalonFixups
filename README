@@ -1,0 +1,11 @@
+========================
+    CHROME EXTENSION
+========================
+
+Fixer lidt ting ved Absalon (absalon.ku.dk):
+    - Tillader autocomplete på login.
+    - Redirecter dig til login-siden når du bliver logget ud.
+
+Installér extensionen fra https://chrome.google.com/extensions/detail/dloeogjnbcdkmcbabhfiohcldcbedign
+
+GitHub link: http://github.com/Eckankar/AbsalonFixups
