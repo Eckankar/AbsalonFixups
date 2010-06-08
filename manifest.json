@@ -1,0 +1,15 @@
+{
+    "name": "Absalon Improver",
+    "version": "1.0",
+
+    "description": "Lader dig autocomplete login på absalon.ku.dk.",
+
+    "content_scripts": [ {
+        "js": [ "autocomplete.js" ],
+        "matches": [ "https://absalon.ku.dk/index.aspx*" ],
+        "run_at": "document_start"
+    }, {
+        "js": [ "logout.js" ],
+        "matches": [ "http://wbl.ku.dk/end*" ]
+    }]
+}
