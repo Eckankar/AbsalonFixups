@@ -6,11 +6,11 @@
 
     "content_scripts": [ {
         "js": [ "autocomplete.js" ],
-        "matches": [ "https://absalon.ku.dk/index.aspx*" ],
+        "matches": [ "https://absalon.itslearning.com/index.aspx*" ],
         "run_at": "document_start"
     }, {
         "js": [ "lib/jquery-1.5.2.min.js", "persons.js" ],
-        "matches": [ "https://absalon.ku.dk/person/persons.aspx*" ],
+        "matches": [ "https://absalon.itslearning.com/person/persons.aspx*" ],
         "all_frames": true
     }, {
         "js": [ "logout.js" ],

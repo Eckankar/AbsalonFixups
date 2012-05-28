@@ -1,1 +1,1 @@
-window.location = 'http://absalon.ku.dk';
+window.location = 'http://absalon.itslearning.com';
